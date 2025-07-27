@@ -2,4 +2,4 @@ ultralytics>=8.0.0
 opencv-python-headless
 matplotlib
 Pillow
-streamlit  # Only include if you're building a Streamlit app
+streamlit  
