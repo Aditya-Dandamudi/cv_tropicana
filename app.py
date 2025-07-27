@@ -16,6 +16,17 @@ logo_base64 = get_base64_logo("Tropicana-Logo.png")
 # --- CUSTOM CSS + LOGO + BAR ---
 st.markdown(f"""
     <style>
+        
+        /* Force all text to be black */
+        html, body, [class*="st-"]{{
+            color: black !important;
+        }}
+
+        /* Optional: override markdown titles and headers */
+        h1, h2, h3, h4, h5, h6, p, span, div {{
+            color: black !important;
+        }}
+
         html, body {{
             background-color: #e6f9e6;
             height: 100%;
