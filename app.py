@@ -108,7 +108,7 @@ model = get_model()
 
 # --- UI INSTRUCTIONS ---
 st.markdown("Upload an image of a Tropicana product, and our AI model will detect and classify it.")
-conf = st.slider("Confidence Threshold", min_value=0.0, max_value=1.0, value=0.25, step=0.01)
+conf = st.slider("Set your preferred confidence threshold", min_value=0.0, max_value=1.0, value=0.25, step=0.01)
 
 # --- FILE UPLOAD ---
 uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
