@@ -55,13 +55,13 @@ st.markdown(f"""
             100% {{ transform: scale(1); }}
         }}
         .top-bar {{
-            background-color: #f95c14;
+            background-color: #FFB632;
             padding: 1rem 2rem;
             color: white;
             font-size: 30px;
             font-weight: bold;
             text-align: center;
-            border-bottom: 3px solid #ff7c33;
+            border-bottom: 3px solid #447700;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
             margin-bottom: 2rem;
         }}
