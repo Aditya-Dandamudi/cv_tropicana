@@ -1,5 +1,17 @@
-streamlit>=1.33.0
-Pillow>=10.3.0
-ultralytics>=8.1.24
-torch>=2.0.1
-opencv-python-headless>=4.8.1.78
+# Core dependencies
+streamlit
+Pillow
+ultralytics
+opencv-python
+numpy
+
+# Used for base64 image encoding
+# (standard lib, so not required unless you're on Streamlit Cloud)
+# base64 is part of standard Python
+
+# OS and tempfile modules are part of the Python Standard Library, no need to list
+
+# Optional: Pin versions if you want to prevent future breakage
+# Example:
+# streamlit==1.35.0
+# ultralytics==8.1.37
