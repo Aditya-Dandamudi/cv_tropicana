@@ -115,12 +115,12 @@ uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"]
 
 # --- PREDICTION WORKFLOW ---
 if uploaded_image:
-    st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
+    st.image(uploaded_image, caption="Uploaded Image", use_container_width=True)
     with st.spinner("🔍 Detecting..."):
         img = Image.open(uploaded_image)
         result_image, label_str = predict_image(model, img, conf_threshold=conf)
 
-    # st.image(result_image, caption="Detected Image", use_column_width=True)
+    # st.image(result_image, caption="Detected Image", use_container_width=True)
 
     if label_str:
         st.success(label_str)
