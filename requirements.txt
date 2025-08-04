@@ -1,11 +1,9 @@
-# Streamlit Cloud compatible requirements
-streamlit==1.35.0
-
-# Computer Vision
+numpy==1.26.4
 opencv-python-headless==4.9.0.80
-numpy==1.24.4
 Pillow==10.3.0
-
-# YOLO and dependencies
-ultralytics==8.1.37
+streamlit==1.35.0
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
 tqdm==4.66.4
+ultralytics==8.1.37
